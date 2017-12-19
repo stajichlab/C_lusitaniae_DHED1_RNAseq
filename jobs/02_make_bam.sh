@@ -1,5 +1,5 @@
 #!/usr/bin/bash
-#SBATCH --nodes 1 --ntasks 1 16gb --time 4:00:00 -J hisat2.makebam --out logs/makebam.%a.log
+#SBATCH --nodes 1 --ntasks 1 --mem 16gb --time 4:00:00 -J hisat2.makebam --out logs/makebam.%a.log
 
 module load picard
 MEM=16
@@ -23,23 +23,20 @@ if [ ! $N ]; then
 fi
 
 IFS=,
-REP=1
-sed -n ${N}p $SAMPLEFILE | while read NAME FOLDER;
-do
- echo $NAME $FOLDER
- NAME=DHED${NAME}
-infile=${INDIR}/${NAME}.r${REP}.sam
-bam=${INDIR}/${NAME}.r${REP}.bam
-echo "$infile $bam"
 
+sed -n ${N}p $SAMPLEFILE | while read FOLDER SAMPLE REP;
+do
+ echo $FOLDER $SAMPLE $REP
+infile=${INDIR}/${SAMPLE}.r${REP}.sam
+bam=${INDIR}/${SAMPLE}.r${REP}.bam
+echo "$infile $bam"
+echo "CREATE_INDEX=true VALIDATION_STRINGENCY=LENIENT TMP_DIR=/scratch/${USER} RGID=$FOLDER RGSM=$SAMPLE.r${REP} RGPL=NextSeq RGPU=Dartmouth RGLB=$FOLDER"
 if [ ! -f $bam ]; then
- java -Xmx${MEM}g -jar $PICARD AddOrReplaceReadGroups SO=coordinate I=$infile O=$bam \ 
- CREATE_INDEX=true VALIDATION_STRINGENCY=LENIENT TMP_DIR=/scratch/${USER} \ 
- RGID=$NAME.r${REP} RGSM=$NAME.r${REP} RGPL=NextSeq RGPU=Dartmouth RGLB=$NAME.$FOLDER 
- if [ -f $bam ]; then
-  rm $infile; touch $infile
-  touch $bam
- fi
+ java -Xmx${MEM}g -jar $PICARD AddOrReplaceReadGroups SO=coordinate I=$infile O=$bam CREATE_INDEX=true VALIDATION_STRINGENCY=LENIENT TMP_DIR=/scratch/${USER} RGID=$FOLDER RGSM=$SAMPLE.r${REP} RGPL=NextSeq RGPU=Dartmouth RGLB=$FOLDER 
+ #if [ -f $bam ]; then
+  #rm $infile; touch $infile
+  #touch $bam
+ #fi
 fi
 
 done
