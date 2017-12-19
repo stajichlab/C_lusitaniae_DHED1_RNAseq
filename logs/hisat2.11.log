@@ -1,0 +1,17 @@
+DHED11-38381401 U3E
+raw/DHED11-38381401/DHED11_S6_L001_R1_001.fastq.gz,raw/DHED11-38381401/DHED11_S6_L002_R1_001.fastq.gz,raw/DHED11-38381401/DHED11_S6_L003_R1_001.fastq.gz,raw/DHED11-38381401/DHED11_S6_L004_R1_001.fastq.gz raw/DHED11-38381401/DHED11_S6_L001_R1_001.fastq.gz,raw/DHED11-38381401/DHED11_S6_L002_R1_001.fastq.gz,raw/DHED11-38381401/DHED11_S6_L003_R1_001.fastq.gz,raw/DHED11-38381401/DHED11_S6_L004_R1_001.fastq.gz
+21103964 reads; of these:
+  21103964 (100.00%) were paired; of these:
+    21067632 (99.83%) aligned concordantly 0 times
+    0 (0.00%) aligned concordantly exactly 1 time
+    36332 (0.17%) aligned concordantly >1 times
+    ----
+    21067632 pairs aligned concordantly 0 times; of these:
+      17038376 (80.87%) aligned discordantly 1 time
+    ----
+    4029256 pairs aligned 0 times concordantly or discordantly; of these:
+      8058512 mates make up the pairs; of these:
+        2679730 (33.25%) aligned 0 times
+        0 (0.00%) aligned exactly 1 time
+        5378782 (66.75%) aligned >1 times
+93.65% overall alignment rate

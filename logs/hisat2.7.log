@@ -1,0 +1,17 @@
+DHED7-38369599 L4C
+raw/DHED7-38369599/DHED7_S14_L001_R1_001.fastq.gz,raw/DHED7-38369599/DHED7_S14_L002_R1_001.fastq.gz,raw/DHED7-38369599/DHED7_S14_L003_R1_001.fastq.gz,raw/DHED7-38369599/DHED7_S14_L004_R1_001.fastq.gz raw/DHED7-38369599/DHED7_S14_L001_R1_001.fastq.gz,raw/DHED7-38369599/DHED7_S14_L002_R1_001.fastq.gz,raw/DHED7-38369599/DHED7_S14_L003_R1_001.fastq.gz,raw/DHED7-38369599/DHED7_S14_L004_R1_001.fastq.gz
+29888876 reads; of these:
+  29888876 (100.00%) were paired; of these:
+    29824457 (99.78%) aligned concordantly 0 times
+    1 (0.00%) aligned concordantly exactly 1 time
+    64418 (0.22%) aligned concordantly >1 times
+    ----
+    29824457 pairs aligned concordantly 0 times; of these:
+      24138975 (80.94%) aligned discordantly 1 time
+    ----
+    5685482 pairs aligned 0 times concordantly or discordantly; of these:
+      11370964 mates make up the pairs; of these:
+        4086580 (35.94%) aligned 0 times
+        0 (0.00%) aligned exactly 1 time
+        7284384 (64.06%) aligned >1 times
+93.16% overall alignment rate

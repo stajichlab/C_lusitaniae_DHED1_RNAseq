@@ -1,0 +1,17 @@
+DHED17-38381405 U3B
+raw/DHED17-38381405/DHED17_S1_L001_R1_001.fastq.gz,raw/DHED17-38381405/DHED17_S1_L002_R1_001.fastq.gz,raw/DHED17-38381405/DHED17_S1_L003_R1_001.fastq.gz,raw/DHED17-38381405/DHED17_S1_L004_R1_001.fastq.gz raw/DHED17-38381405/DHED17_S1_L001_R1_001.fastq.gz,raw/DHED17-38381405/DHED17_S1_L002_R1_001.fastq.gz,raw/DHED17-38381405/DHED17_S1_L003_R1_001.fastq.gz,raw/DHED17-38381405/DHED17_S1_L004_R1_001.fastq.gz
+26372071 reads; of these:
+  26372071 (100.00%) were paired; of these:
+    26324771 (99.82%) aligned concordantly 0 times
+    0 (0.00%) aligned concordantly exactly 1 time
+    47300 (0.18%) aligned concordantly >1 times
+    ----
+    26324771 pairs aligned concordantly 0 times; of these:
+      21431856 (81.41%) aligned discordantly 1 time
+    ----
+    4892915 pairs aligned 0 times concordantly or discordantly; of these:
+      9785830 mates make up the pairs; of these:
+        3025068 (30.91%) aligned 0 times
+        0 (0.00%) aligned exactly 1 time
+        6760762 (69.09%) aligned >1 times
+94.26% overall alignment rate

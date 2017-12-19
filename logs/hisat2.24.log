@@ -1,0 +1,17 @@
+DHED24-38373424 U5C_benomyl
+raw/DHED24-38373424/DHED24_S9_L001_R1_001.fastq.gz,raw/DHED24-38373424/DHED24_S9_L002_R1_001.fastq.gz,raw/DHED24-38373424/DHED24_S9_L003_R1_001.fastq.gz,raw/DHED24-38373424/DHED24_S9_L004_R1_001.fastq.gz raw/DHED24-38373424/DHED24_S9_L001_R1_001.fastq.gz,raw/DHED24-38373424/DHED24_S9_L002_R1_001.fastq.gz,raw/DHED24-38373424/DHED24_S9_L003_R1_001.fastq.gz,raw/DHED24-38373424/DHED24_S9_L004_R1_001.fastq.gz
+26322675 reads; of these:
+  26322675 (100.00%) were paired; of these:
+    26282738 (99.85%) aligned concordantly 0 times
+    0 (0.00%) aligned concordantly exactly 1 time
+    39937 (0.15%) aligned concordantly >1 times
+    ----
+    26282738 pairs aligned concordantly 0 times; of these:
+      19650768 (74.77%) aligned discordantly 1 time
+    ----
+    6631970 pairs aligned 0 times concordantly or discordantly; of these:
+      13263940 mates make up the pairs; of these:
+        4017812 (30.29%) aligned 0 times
+        0 (0.00%) aligned exactly 1 time
+        9246128 (69.71%) aligned >1 times
+92.37% overall alignment rate

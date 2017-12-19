@@ -1,0 +1,17 @@
+DHED10-38375435 U3E_benomyl
+raw/DHED10-38375435/DHED10_S4_L001_R1_001.fastq.gz,raw/DHED10-38375435/DHED10_S4_L002_R1_001.fastq.gz,raw/DHED10-38375435/DHED10_S4_L003_R1_001.fastq.gz,raw/DHED10-38375435/DHED10_S4_L004_R1_001.fastq.gz raw/DHED10-38375435/DHED10_S4_L001_R1_001.fastq.gz,raw/DHED10-38375435/DHED10_S4_L002_R1_001.fastq.gz,raw/DHED10-38375435/DHED10_S4_L003_R1_001.fastq.gz,raw/DHED10-38375435/DHED10_S4_L004_R1_001.fastq.gz
+20400840 reads; of these:
+  20400840 (100.00%) were paired; of these:
+    20342154 (99.71%) aligned concordantly 0 times
+    0 (0.00%) aligned concordantly exactly 1 time
+    58686 (0.29%) aligned concordantly >1 times
+    ----
+    20342154 pairs aligned concordantly 0 times; of these:
+      16063636 (78.97%) aligned discordantly 1 time
+    ----
+    4278518 pairs aligned 0 times concordantly or discordantly; of these:
+      8557036 mates make up the pairs; of these:
+        2885680 (33.72%) aligned 0 times
+        0 (0.00%) aligned exactly 1 time
+        5671356 (66.28%) aligned >1 times
+92.93% overall alignment rate

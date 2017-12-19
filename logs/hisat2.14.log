@@ -1,0 +1,17 @@
+DHED14-38379409 L1B_benomyl
+raw/DHED14-38379409/DHED14_S12_L001_R1_001.fastq.gz,raw/DHED14-38379409/DHED14_S12_L002_R1_001.fastq.gz,raw/DHED14-38379409/DHED14_S12_L003_R1_001.fastq.gz,raw/DHED14-38379409/DHED14_S12_L004_R1_001.fastq.gz raw/DHED14-38379409/DHED14_S12_L001_R1_001.fastq.gz,raw/DHED14-38379409/DHED14_S12_L002_R1_001.fastq.gz,raw/DHED14-38379409/DHED14_S12_L003_R1_001.fastq.gz,raw/DHED14-38379409/DHED14_S12_L004_R1_001.fastq.gz
+15612057 reads; of these:
+  15612057 (100.00%) were paired; of these:
+    15576453 (99.77%) aligned concordantly 0 times
+    0 (0.00%) aligned concordantly exactly 1 time
+    35604 (0.23%) aligned concordantly >1 times
+    ----
+    15576453 pairs aligned concordantly 0 times; of these:
+      11727474 (75.29%) aligned discordantly 1 time
+    ----
+    3848979 pairs aligned 0 times concordantly or discordantly; of these:
+      7697958 mates make up the pairs; of these:
+        2968550 (38.56%) aligned 0 times
+        0 (0.00%) aligned exactly 1 time
+        4729408 (61.44%) aligned >1 times
+90.49% overall alignment rate
