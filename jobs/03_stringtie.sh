@@ -23,16 +23,11 @@ if [ ! $N ]; then
 fi
 
 IFS=,
-REP=1
-sed -n ${N}p $SAMPLEFILE | while read NAME FOLDER;
+sed -n ${N}p $SAMPLEFILE | while read FOLDER SAMPLE REP
 do
- echo $NAME $FOLDER
- NAME=DHED${NAME}
- OUTFILE=$OUTDIR/${NAME}.r${REP}.sam
- echo "$PAIR1 $PAIR2"
-
- INFILE=$INDIR/${NAME}.r${REP}.bam
- echo "NAME is $NAME REP is $REP infile = $INFILE"
+ echo "$FOLDER $SAMPLE"
+ INFILE=$INDIR/${SAMPLE}.r${REP}.bam
+ echo "NAME is $SAMPLE REP is $REP infile = $INFILE OUTDIR=$OUTDIR/${SAMPLE}.r${REP} " 
  mkdir -p $OUTDIR/${NAME}.r${REP}
- stringtie --fr -p $CPU -G $GTF -b $OUTDIR/${NAME}.r${REP} -e -o $OUTDIR/${NAME}.r${REP}.stringtie.gtf $INFILE
+ stringtie --fr -p $CPU -G $GTF -b $OUTDIR/${SAMPLE}.r${REP} -e -o $OUTDIR/${SAMPLE}.r${REP}.stringtie.gtf $INFILE
 done
