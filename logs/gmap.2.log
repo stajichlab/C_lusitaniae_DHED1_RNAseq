@@ -1,0 +1,44 @@
+DHED2-38379411 U10D_benomyl
+raw/DHED2-38379411/DHED2_S15_L001_R1_001.fastq.gz raw/DHED2-38379411/DHED2_S15_L001_R2_001.fastq.gz raw/DHED2-38379411/DHED2_S15_L002_R1_001.fastq.gz raw/DHED2-38379411/DHED2_S15_L002_R2_001.fastq.gz raw/DHED2-38379411/DHED2_S15_L003_R1_001.fastq.gz raw/DHED2-38379411/DHED2_S15_L003_R2_001.fastq.gz raw/DHED2-38379411/DHED2_S15_L004_R1_001.fastq.gz raw/DHED2-38379411/DHED2_S15_L004_R2_001.fastq.gz 
+ModuleCmd_Load.c(208):ERROR:105: Unable to locate a modulefile for 'gsnap'
+GSNAP version 2017-01-14 called with args: gsnap.sse42 -t 14 -s splicesites -D genome --gunzip -d candida_lusitaniae --read-group-id=DHED2-38379411 --read-group-name=U10D_benomyl -A sam raw/DHED2-38379411/DHED2_S15_L001_R1_001.fastq.gz raw/DHED2-38379411/DHED2_S15_L001_R2_001.fastq.gz raw/DHED2-38379411/DHED2_S15_L002_R1_001.fastq.gz raw/DHED2-38379411/DHED2_S15_L002_R2_001.fastq.gz raw/DHED2-38379411/DHED2_S15_L003_R1_001.fastq.gz raw/DHED2-38379411/DHED2_S15_L003_R2_001.fastq.gz raw/DHED2-38379411/DHED2_S15_L004_R1_001.fastq.gz raw/DHED2-38379411/DHED2_S15_L004_R2_001.fastq.gz
+Known splicing (-s) turned on => assume reads are RNA-Seq
+Checking compiler assumptions for SSE2: 6B8B4567 327B23C6 xor=59F066A1
+Checking compiler assumptions for SSE4.1: -103 -58 max=198 => compiler zero extends
+Checking compiler assumptions for SSE4.2 options: 6B8B4567 __builtin_clz=1 __builtin_ctz=0 _mm_popcnt_u32=17 __builtin_popcount=17 
+Finished checking compiler assumptions
+Allocating memory for compressed genome (oligos)...Attached existing memory for genome/candida_lusitaniae/candida_lusitaniae.genomecomp...done (4,545,324 bytes, 0.00 sec)
+Allocating memory for compressed genome (bits)...Attached existing memory for genome/candida_lusitaniae/candida_lusitaniae.genomebits128...done (4,545,360 bytes, 0.00 sec)
+Pre-loading suffix array......done (48,483,388 bytes, 0.13 sec)
+Allocating memory for indexij ptrs...Attached new memory for genome/candida_lusitaniae/candida_lusitaniae.saindex64meta...done (4,194,312 bytes, 0.15 sec)
+Allocating memory for indexij comp...Attached existing memory for genome/candida_lusitaniae/candida_lusitaniae.saindex64strm...done (13,262,768 bytes, 0.00 sec)
+Pre-loading LCP/child/DC arrays......done (30,302,120 bytes, 0.50 sec)
+Allocating memory for lcp guide...Attached existing memory for genome/candida_lusitaniae/candida_lusitaniae.salcpguide1024...done (47,352 bytes, 0.00 sec)
+Allocating memory for lcp exceptions...Attached new memory for genome/candida_lusitaniae/candida_lusitaniae.salcpexc...done (265,136 bytes, 0.02 sec)
+Allocating memory for child guide...Attached new memory for genome/candida_lusitaniae/candida_lusitaniae.sachildguide1024...done (47,352 bytes, 0.01 sec)
+Allocating memory for child exceptions...Attached existing memory for genome/candida_lusitaniae/candida_lusitaniae.sachildexc...done (278,576 bytes, 0.00 sec)
+Looking for index files in directory genome/candida_lusitaniae
+  Pointers file is candida_lusitaniae.ref153offsets64meta
+  Offsets file is candida_lusitaniae.ref153offsets64strm
+  Positions file is candida_lusitaniae.ref153positions
+Offsets compression type: bitpack64
+Allocating memory for ref offset pointers, kmer 15, interval 3...Attached new memory for genome/candida_lusitaniae/candida_lusitaniae.ref153offsets64meta...done (134,217,744 bytes, 0.26 sec)
+Allocating memory for ref offsets, kmer 15, interval 3...Attached existing memory for genome/candida_lusitaniae/candida_lusitaniae.ref153offsets64strm...done (52,624,688 bytes, 0.00 sec)
+Allocating memory for ref positions, kmer 15, interval 3...Attached existing memory for genome/candida_lusitaniae/candida_lusitaniae.ref153positions...done (16,110,844 bytes, 0.00 sec)
+Reading splicing file genome/candida_lusitaniae/candida_lusitaniae.maps/splicesites...found donor and acceptor tags, so treating as splicesites file
+splice distances present...28 unique splicesites...
+28 splicesites are valid...splicetrie_obs has 28 entries...splicetrie_max has 132 entries...done
+GMAP modes: pairsearch, segments, improvement
+Starting alignment
+Processed 16853097 queries in 1120.02 seconds (15047.14 queries/sec)
+Keeping memory for shmid 819210 resident, because it is being used by 1 processes
+Keeping memory for shmid 786441 resident, because it is being used by 1 processes
+Keeping memory for shmid 753672 resident, because it is being used by 1 processes
+Keeping memory for shmid 557058 resident, because it is being used by 1 processes
+Keeping memory for shmid 589827 resident, because it is being used by 1 processes
+Keeping memory for shmid 622596 resident, because it is being used by 1 processes
+Keeping memory for shmid 655365 resident, because it is being used by 1 processes
+Keeping memory for shmid 688134 resident, because it is being used by 1 processes
+Keeping memory for shmid 720903 resident, because it is being used by 1 processes
+Keeping memory for shmid 524289 resident, because it is being used by 1 processes
+Keeping memory for shmid 491520 resident, because it is being used by 1 processes

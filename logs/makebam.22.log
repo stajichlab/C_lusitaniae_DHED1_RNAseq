@@ -1,0 +1,74 @@
+DHED22-38369597 U5C_benomyl 1
+aln/U5C_benomyl.r1.sam aln/U5C_benomyl.r1.bam
+CREATE_INDEX=true VALIDATION_STRINGENCY=LENIENT TMP_DIR=/scratch/jstajich RGID=DHED22-38369597 RGSM=U5C_benomyl.r1 RGPL=NextSeq RGPU=Dartmouth RGLB=DHED22-38369597
+23:40:28.010 INFO  NativeLibraryLoader - Loading libgkl_compression.so from jar:file:/bigdata/bioinfo/pkgadmin/opt/linux/centos/7.x/x86_64/pkgs/picard/2.14.1/lib/picard.jar!/com/intel/gkl/native/libgkl_compression.so
+[Mon Dec 18 23:40:28 PST 2017] AddOrReplaceReadGroups INPUT=aln/U5C_benomyl.r1.sam OUTPUT=aln/U5C_benomyl.r1.bam SORT_ORDER=coordinate RGID=DHED22-38369597 RGLB=DHED22-38369597 RGPL=NextSeq RGPU=Dartmouth RGSM=U5C_benomyl.r1 TMP_DIR=[/scratch/jstajich] VALIDATION_STRINGENCY=LENIENT CREATE_INDEX=true    VERBOSITY=INFO QUIET=false COMPRESSION_LEVEL=5 MAX_RECORDS_IN_RAM=500000 CREATE_MD5_FILE=false GA4GH_CLIENT_SECRETS=client_secrets.json USE_JDK_DEFLATER=false USE_JDK_INFLATER=false
+[Mon Dec 18 23:40:28 PST 2017] Executing as jstajich@i33 on Linux 3.10.0-229.1.2.el7.x86_64 amd64; Java HotSpot(TM) 64-Bit Server VM 1.8.0_45-b14; Deflater: Intel; Inflater: Intel; Picard version: 2.14.1-SNAPSHOT
+Ignoring SAM validation error: ERROR: Error parsing SAM header. @RG line missing SM tag. Line:
+@RG	ID:DHED22-38369597
+INFO	2017-12-18 23:40:28	AddOrReplaceReadGroups	Created read group ID=DHED22-38369597 PL=NextSeq LB=DHED22-38369597 SM=U5C_benomyl.r1
+
+INFO	2017-12-18 23:40:55	AddOrReplaceReadGroups	Processed     1,000,000 records.  Elapsed time: 00:00:26s.  Time for last 1,000,000:   26s.  Last read position: Supercontig_1.4:1,224,176
+INFO	2017-12-18 23:41:19	AddOrReplaceReadGroups	Processed     2,000,000 records.  Elapsed time: 00:00:50s.  Time for last 1,000,000:   24s.  Last read position: Supercontig_1.4:1,407,429
+INFO	2017-12-18 23:41:47	AddOrReplaceReadGroups	Processed     3,000,000 records.  Elapsed time: 00:01:18s.  Time for last 1,000,000:   27s.  Last read position: Supercontig_1.3:4,400
+INFO	2017-12-18 23:42:09	AddOrReplaceReadGroups	Processed     4,000,000 records.  Elapsed time: 00:01:41s.  Time for last 1,000,000:   22s.  Last read position: Supercontig_1.2:46,756
+INFO	2017-12-18 23:42:36	AddOrReplaceReadGroups	Processed     5,000,000 records.  Elapsed time: 00:02:07s.  Time for last 1,000,000:   26s.  Last read position: Supercontig_1.1:751,792
+INFO	2017-12-18 23:42:57	AddOrReplaceReadGroups	Processed     6,000,000 records.  Elapsed time: 00:02:29s.  Time for last 1,000,000:   21s.  Last read position: Supercontig_1.1:351,679
+INFO	2017-12-18 23:43:25	AddOrReplaceReadGroups	Processed     7,000,000 records.  Elapsed time: 00:02:57s.  Time for last 1,000,000:   27s.  Last read position: Supercontig_1.1:751,920
+INFO	2017-12-18 23:43:49	AddOrReplaceReadGroups	Processed     8,000,000 records.  Elapsed time: 00:03:21s.  Time for last 1,000,000:   24s.  Last read position: Supercontig_1.2:474,334
+INFO	2017-12-18 23:44:16	AddOrReplaceReadGroups	Processed     9,000,000 records.  Elapsed time: 00:03:47s.  Time for last 1,000,000:   26s.  Last read position: Supercontig_1.2:598,616
+INFO	2017-12-18 23:44:43	AddOrReplaceReadGroups	Processed    10,000,000 records.  Elapsed time: 00:04:15s.  Time for last 1,000,000:   27s.  Last read position: Supercontig_1.3:1,590,956
+INFO	2017-12-18 23:45:08	AddOrReplaceReadGroups	Processed    11,000,000 records.  Elapsed time: 00:04:40s.  Time for last 1,000,000:   25s.  Last read position: Supercontig_1.7:644,862
+INFO	2017-12-18 23:45:33	AddOrReplaceReadGroups	Processed    12,000,000 records.  Elapsed time: 00:05:04s.  Time for last 1,000,000:   24s.  Last read position: Supercontig_1.8:733,144
+INFO	2017-12-18 23:45:57	AddOrReplaceReadGroups	Processed    13,000,000 records.  Elapsed time: 00:05:28s.  Time for last 1,000,000:   23s.  Last read position: */*
+INFO	2017-12-18 23:46:23	AddOrReplaceReadGroups	Processed    14,000,000 records.  Elapsed time: 00:05:54s.  Time for last 1,000,000:   26s.  Last read position: Supercontig_1.3:11,255
+INFO	2017-12-18 23:46:47	AddOrReplaceReadGroups	Processed    15,000,000 records.  Elapsed time: 00:06:19s.  Time for last 1,000,000:   24s.  Last read position: Supercontig_1.3:538,401
+INFO	2017-12-18 23:47:10	AddOrReplaceReadGroups	Processed    16,000,000 records.  Elapsed time: 00:06:42s.  Time for last 1,000,000:   22s.  Last read position: Supercontig_1.8:550,820
+INFO	2017-12-18 23:47:37	AddOrReplaceReadGroups	Processed    17,000,000 records.  Elapsed time: 00:07:08s.  Time for last 1,000,000:   26s.  Last read position: Supercontig_1.3:469,496
+INFO	2017-12-18 23:48:06	AddOrReplaceReadGroups	Processed    18,000,000 records.  Elapsed time: 00:07:38s.  Time for last 1,000,000:   29s.  Last read position: Supercontig_1.3:518,960
+INFO	2017-12-18 23:48:29	AddOrReplaceReadGroups	Processed    19,000,000 records.  Elapsed time: 00:08:00s.  Time for last 1,000,000:   22s.  Last read position: */*
+INFO	2017-12-18 23:48:54	AddOrReplaceReadGroups	Processed    20,000,000 records.  Elapsed time: 00:08:25s.  Time for last 1,000,000:   25s.  Last read position: Supercontig_1.3:713,165
+INFO	2017-12-18 23:49:17	AddOrReplaceReadGroups	Processed    21,000,000 records.  Elapsed time: 00:08:48s.  Time for last 1,000,000:   22s.  Last read position: Supercontig_1.1:313,651
+INFO	2017-12-18 23:49:42	AddOrReplaceReadGroups	Processed    22,000,000 records.  Elapsed time: 00:09:13s.  Time for last 1,000,000:   24s.  Last read position: Supercontig_1.4:78,805
+INFO	2017-12-18 23:50:03	AddOrReplaceReadGroups	Processed    23,000,000 records.  Elapsed time: 00:09:35s.  Time for last 1,000,000:   21s.  Last read position: Supercontig_1.4:578,753
+INFO	2017-12-18 23:50:26	AddOrReplaceReadGroups	Processed    24,000,000 records.  Elapsed time: 00:09:58s.  Time for last 1,000,000:   23s.  Last read position: Supercontig_1.3:1,179,682
+INFO	2017-12-18 23:50:50	AddOrReplaceReadGroups	Processed    25,000,000 records.  Elapsed time: 00:10:22s.  Time for last 1,000,000:   23s.  Last read position: Supercontig_1.1:2,016,970
+INFO	2017-12-18 23:51:17	AddOrReplaceReadGroups	Processed    26,000,000 records.  Elapsed time: 00:10:48s.  Time for last 1,000,000:   26s.  Last read position: Supercontig_1.2:501,519
+INFO	2017-12-18 23:51:39	AddOrReplaceReadGroups	Processed    27,000,000 records.  Elapsed time: 00:11:10s.  Time for last 1,000,000:   21s.  Last read position: Supercontig_1.8:741,208
+INFO	2017-12-18 23:52:04	AddOrReplaceReadGroups	Processed    28,000,000 records.  Elapsed time: 00:11:36s.  Time for last 1,000,000:   25s.  Last read position: Supercontig_1.3:425,422
+INFO	2017-12-18 23:52:31	AddOrReplaceReadGroups	Processed    29,000,000 records.  Elapsed time: 00:12:03s.  Time for last 1,000,000:   26s.  Last read position: Supercontig_1.4:614,017
+INFO	2017-12-18 23:52:55	AddOrReplaceReadGroups	Processed    30,000,000 records.  Elapsed time: 00:12:26s.  Time for last 1,000,000:   23s.  Last read position: Supercontig_1.1:472,303
+INFO	2017-12-18 23:53:18	AddOrReplaceReadGroups	Processed    31,000,000 records.  Elapsed time: 00:12:50s.  Time for last 1,000,000:   23s.  Last read position: Supercontig_1.2:2,083,053
+INFO	2017-12-18 23:53:43	AddOrReplaceReadGroups	Processed    32,000,000 records.  Elapsed time: 00:13:14s.  Time for last 1,000,000:   24s.  Last read position: Supercontig_1.1:1,027,525
+INFO	2017-12-18 23:54:08	AddOrReplaceReadGroups	Processed    33,000,000 records.  Elapsed time: 00:13:39s.  Time for last 1,000,000:   24s.  Last read position: Supercontig_1.3:22,349
+INFO	2017-12-18 23:54:33	AddOrReplaceReadGroups	Processed    34,000,000 records.  Elapsed time: 00:14:05s.  Time for last 1,000,000:   25s.  Last read position: Supercontig_1.7:84,728
+INFO	2017-12-18 23:54:56	AddOrReplaceReadGroups	Processed    35,000,000 records.  Elapsed time: 00:14:27s.  Time for last 1,000,000:   22s.  Last read position: Supercontig_1.5:1,154,252
+INFO	2017-12-18 23:55:17	AddOrReplaceReadGroups	Processed    36,000,000 records.  Elapsed time: 00:14:49s.  Time for last 1,000,000:   21s.  Last read position: Supercontig_1.1:1,862,160
+INFO	2017-12-18 23:55:43	AddOrReplaceReadGroups	Processed    37,000,000 records.  Elapsed time: 00:15:14s.  Time for last 1,000,000:   25s.  Last read position: Supercontig_1.3:947,455
+INFO	2017-12-18 23:56:03	AddOrReplaceReadGroups	Processed    38,000,000 records.  Elapsed time: 00:15:34s.  Time for last 1,000,000:   20s.  Last read position: Supercontig_1.7:339,736
+INFO	2017-12-18 23:56:26	AddOrReplaceReadGroups	Processed    39,000,000 records.  Elapsed time: 00:15:58s.  Time for last 1,000,000:   23s.  Last read position: Supercontig_1.8:704,917
+INFO	2017-12-18 23:56:49	AddOrReplaceReadGroups	Processed    40,000,000 records.  Elapsed time: 00:16:20s.  Time for last 1,000,000:   22s.  Last read position: Supercontig_1.3:1,865,971
+INFO	2017-12-18 23:57:11	AddOrReplaceReadGroups	Processed    41,000,000 records.  Elapsed time: 00:16:43s.  Time for last 1,000,000:   22s.  Last read position: Supercontig_1.1:1,082,306
+INFO	2017-12-18 23:57:35	AddOrReplaceReadGroups	Processed    42,000,000 records.  Elapsed time: 00:17:07s.  Time for last 1,000,000:   24s.  Last read position: Supercontig_1.2:406,066
+INFO	2017-12-18 23:58:00	AddOrReplaceReadGroups	Processed    43,000,000 records.  Elapsed time: 00:17:32s.  Time for last 1,000,000:   25s.  Last read position: Supercontig_1.2:474,992
+INFO	2017-12-18 23:58:24	AddOrReplaceReadGroups	Processed    44,000,000 records.  Elapsed time: 00:17:56s.  Time for last 1,000,000:   23s.  Last read position: Supercontig_1.4:1,191,550
+INFO	2017-12-18 23:58:47	AddOrReplaceReadGroups	Processed    45,000,000 records.  Elapsed time: 00:18:18s.  Time for last 1,000,000:   22s.  Last read position: Supercontig_1.6:651,993
+INFO	2017-12-18 23:59:08	AddOrReplaceReadGroups	Processed    46,000,000 records.  Elapsed time: 00:18:40s.  Time for last 1,000,000:   21s.  Last read position: Supercontig_1.8:549,967
+INFO	2017-12-18 23:59:30	AddOrReplaceReadGroups	Processed    47,000,000 records.  Elapsed time: 00:19:02s.  Time for last 1,000,000:   21s.  Last read position: Supercontig_1.3:10,219
+INFO	2017-12-18 23:59:55	AddOrReplaceReadGroups	Processed    48,000,000 records.  Elapsed time: 00:19:26s.  Time for last 1,000,000:   24s.  Last read position: Supercontig_1.3:20,571
+INFO	2017-12-19 00:00:16	AddOrReplaceReadGroups	Processed    49,000,000 records.  Elapsed time: 00:19:47s.  Time for last 1,000,000:   20s.  Last read position: Supercontig_1.8:739,498
+INFO	2017-12-19 00:00:39	AddOrReplaceReadGroups	Processed    50,000,000 records.  Elapsed time: 00:20:11s.  Time for last 1,000,000:   23s.  Last read position: Supercontig_1.3:1,637,237
+INFO	2017-12-19 00:01:04	AddOrReplaceReadGroups	Processed    51,000,000 records.  Elapsed time: 00:20:35s.  Time for last 1,000,000:   24s.  Last read position: Supercontig_1.3:10,682
+INFO	2017-12-19 00:01:29	AddOrReplaceReadGroups	Processed    52,000,000 records.  Elapsed time: 00:21:01s.  Time for last 1,000,000:   25s.  Last read position: Supercontig_1.4:1,408,529
+INFO	2017-12-19 00:01:53	AddOrReplaceReadGroups	Processed    53,000,000 records.  Elapsed time: 00:21:25s.  Time for last 1,000,000:   23s.  Last read position: Supercontig_1.2:1,811,700
+INFO	2017-12-19 00:02:15	AddOrReplaceReadGroups	Processed    54,000,000 records.  Elapsed time: 00:21:47s.  Time for last 1,000,000:   22s.  Last read position: Supercontig_1.2:884,021
+INFO	2017-12-19 00:02:40	AddOrReplaceReadGroups	Processed    55,000,000 records.  Elapsed time: 00:22:11s.  Time for last 1,000,000:   24s.  Last read position: Supercontig_1.2:664,874
+INFO	2017-12-19 00:03:03	AddOrReplaceReadGroups	Processed    56,000,000 records.  Elapsed time: 00:22:34s.  Time for last 1,000,000:   23s.  Last read position: Supercontig_1.3:1,659,143
+INFO	2017-12-19 00:03:27	AddOrReplaceReadGroups	Processed    57,000,000 records.  Elapsed time: 00:22:59s.  Time for last 1,000,000:   24s.  Last read position: Supercontig_1.2:1,837,346
+INFO	2017-12-19 00:03:51	AddOrReplaceReadGroups	Processed    58,000,000 records.  Elapsed time: 00:23:23s.  Time for last 1,000,000:   23s.  Last read position: Supercontig_1.4:430,380
+INFO	2017-12-19 00:04:16	AddOrReplaceReadGroups	Processed    59,000,000 records.  Elapsed time: 00:23:48s.  Time for last 1,000,000:   25s.  Last read position: Supercontig_1.7:260,244
+INFO	2017-12-19 00:04:41	AddOrReplaceReadGroups	Processed    60,000,000 records.  Elapsed time: 00:24:13s.  Time for last 1,000,000:   24s.  Last read position: Supercontig_1.1:2,289,326
+INFO	2017-12-19 00:05:06	AddOrReplaceReadGroups	Processed    61,000,000 records.  Elapsed time: 00:24:37s.  Time for last 1,000,000:   24s.  Last read position: Supercontig_1.5:1,144,511
+INFO	2017-12-19 00:05:30	AddOrReplaceReadGroups	Processed    62,000,000 records.  Elapsed time: 00:25:01s.  Time for last 1,000,000:   23s.  Last read position: Supercontig_1.7:234,471
+[Tue Dec 19 00:15:53 PST 2017] picard.sam.AddOrReplaceReadGroups done. Elapsed time: 35.43 minutes.
+Runtime.totalMemory()=5246550016
