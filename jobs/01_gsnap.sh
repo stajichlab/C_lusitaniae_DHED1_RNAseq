@@ -1,5 +1,6 @@
 #!/usr/bin/bash
-#SBATCH --nodes 1 --ntasks 16 --mem 16gb --time 12:00:00 -J gmap --out logs/gmap.%a.log
+#SBATCH --nodes 1 --ntasks 16 --mem 16gb 
+#SBATCH --time 12:00:00 -J gmap --out logs/gmap.%a.log
 
 module load gmap
 
@@ -37,12 +38,16 @@ do
  READS=$(ls $INDIR/${FOLDER}/*.fastq.gz | perl -p -e 's/\s+/ /g')
  echo "$READS"
  if [ ! -f $OUTFILE ]; then  
+
   echo "module load gmap" > job_$FOLDER.sh
+
   echo "gsnap -t $THREADCOUNT -s splicesites -D genome --gunzip \
  -d candida_lusitaniae --read-group-id=$FOLDER --read-group-name=$SAMPLE \
- -A sam $READS > $OUTFILE" >> job_$SAMPLE.sh
+ -A sam $READS > $OUTFILE" >> job_$FOLDER.sh
+
  bash job_$FOLDER.sh
  unlink job_$FOLDER.sh
+
  fi
 
 done
