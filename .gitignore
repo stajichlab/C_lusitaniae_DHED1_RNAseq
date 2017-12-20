@@ -3,3 +3,4 @@
 *.ht2
 logs/*.log
 genome/candida_lusitaniae_ATCC42720_w_CBS_6936_MT.fa
+*stringtie.gtf
