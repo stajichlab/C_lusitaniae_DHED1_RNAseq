@@ -1,0 +1,15 @@
+i_id	chr	strand	start	end	rcount	ucount	mrcount
+1	Supercontig_1.1	+	1181868	1181968	0	0	0.00
+2	Supercontig_1.1	+	1803684	1803745	2	2	2.00
+3	Supercontig_1.1	+	2124286	2124517	486	456	471.00
+4	Supercontig_1.2	-	46145	46188	281	259	270.00
+5	Supercontig_1.2	+	807923	808089	111	95	102.40
+6	Supercontig_1.4	-	546502	546562	1	1	1.00
+7	Supercontig_1.4	-	1081026	1081162	0	0	0.00
+8	Supercontig_1.4	+	1231719	1232036	0	0	0.00
+9	Supercontig_1.5	+	917575	917628	0	0	0.00
+10	Supercontig_1.5	-	927859	928112	0	0	0.00
+11	Supercontig_1.5	-	1180233	1180554	0	0	0.00
+12	Supercontig_1.8	-	155185	155342	991	904	944.50
+13	Supercontig_1.8	+	246465	246511	0	0	0.00
+14	Supercontig_1.8	+	388281	388794	0	0	0.00
