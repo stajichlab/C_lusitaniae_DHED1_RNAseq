@@ -30,6 +30,14 @@ sed -n ${N}p $SAMPLEFILE | while read FOLDER SAMPLE REP
 do
  echo $FOLDER $SAMPLE
  BAM=$OUTDIR/${SAMPLE}.r${REP}.bam
+ GSNAPBAM=$OUTDIR/${SAMPLE}.r${REP}.gsnap.bam
+ if [ ! -f $REPORTDIR/$SAMPLE.r${REP}.pairedreport.txt ]; then
  infer_experiment.py -s 1000000 -i $BAM -r $BEDGENES > $REPORTDIR/$SAMPLE.r${REP}.pairedreport.txt
+ fi
+ if [ -f $GSNAPBAM ]; then
+  if [ ! -f $REPORTDIR/$SAMPLE.r${REP}.gsnap.pairedreport.txt ]; then
+   infer_experiment.py -s 1000000 -i $GSNAPBAM -r $BEDGENES > $REPORTDIR/$SAMPLE.r${REP}.gsnap.pairedreport.txt
+ fi
+ fi
 done
 
