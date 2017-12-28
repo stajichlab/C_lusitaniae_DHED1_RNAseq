@@ -5,7 +5,7 @@ PREFIX=DHED1
 OUT=reports
 mkdir -p $OUT
 cd results
-for dir in *.r[12]
+for dir in *.r[12].gsnap
 do
  pushd $dir;
  ln -s ../$(basename `pwd`)*.gtf .

@@ -1,3 +1,2 @@
-13 DHED13-38374448
- 
-NAME is DHED13 REP is 1 infile = aln/DHED13.r1.bam
+DHED5-38369598 L4C
+NAME is L4C REP is 1 infile = aln/L4C.r1.gsnap.bam OUTDIR=results/L4C.r1 

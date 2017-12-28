@@ -1,3 +1,2 @@
-10 DHED10-38375435
- 
-NAME is DHED10 REP is 1 infile = aln/DHED10.r1.bam
+DHED2-38379411 U10D_benomyl
+NAME is U10D_benomyl REP is 1 infile = aln/U10D_benomyl.r1.gsnap.bam OUTDIR=results/U10D_benomyl.r1 

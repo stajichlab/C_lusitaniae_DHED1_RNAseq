@@ -1,3 +1,2 @@
-16 DHED16-38379400
- 
-NAME is DHED16 REP is 1 infile = aln/DHED16.r1.bam
+DHED8-38371509 L4C_benomyl
+NAME is L4C_benomyl REP is 2 infile = aln/L4C_benomyl.r2.gsnap.bam OUTDIR=results/L4C_benomyl.r2 

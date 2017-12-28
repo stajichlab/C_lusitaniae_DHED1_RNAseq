@@ -1,3 +1,2 @@
-24 DHED24-38373424
- 
-NAME is DHED24 REP is 1 infile = aln/DHED24.r1.bam
+DHED17-38381405 U3B
+NAME is U3B REP is 1 infile = aln/U3B.r1.gsnap.bam OUTDIR=results/U3B.r1 

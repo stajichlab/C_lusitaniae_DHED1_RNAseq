@@ -1,3 +1,2 @@
-17 DHED17-38381405
- 
-NAME is DHED17 REP is 1 infile = aln/DHED17.r1.bam
+DHED9-38376446 U3E
+NAME is U3E REP is 1 infile = aln/U3E.r1.gsnap.bam OUTDIR=results/U3E.r1 

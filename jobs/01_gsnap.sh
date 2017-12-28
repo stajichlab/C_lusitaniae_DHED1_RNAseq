@@ -1,6 +1,6 @@
 #!/usr/bin/bash
-#SBATCH --nodes 1 --ntasks 16 --mem 16gb 
-#SBATCH --time 12:00:00 -J gmap --out logs/gmap.%a.log
+#SBATCH --nodes 1 --ntasks 24 --mem 16gb  -p short
+#SBATCH --time 2:00:00 -J gmap --out logs/gmap.%a.log
 
 module load gmap
 

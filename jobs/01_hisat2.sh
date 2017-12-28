@@ -33,7 +33,7 @@ do
  PAIR2=$(ls ${INDIR}/${FOLDER}/*_R1_*.gz | perl -p -e 's/\s+/,/g' | perl -p -e 's/,$//')
  echo "$PAIR1 $PAIR2"
  if [ ! -f $OUTFILE ]; then
-  hisat2 --rna-strandness FR -p $CPU -x $GENOME --known-splicesite-infile genome/splicesites.txt --dta --dta-cufflinks --secondary --rg-id $FOLDER -q -1 "$PAIR1" -2 "$PAIR2" -S $OUTFILE
+  hisat2 --rna-strandness RF -p $CPU -x $GENOME --known-splicesite-infile genome/splicesites.txt --dta --dta-cufflinks --secondary --rg-id $FOLDER -q -1 "$PAIR1" -2 "$PAIR2" -S $OUTFILE
  fi
 
 done
