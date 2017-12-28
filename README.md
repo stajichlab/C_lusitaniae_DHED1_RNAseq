@@ -22,3 +22,6 @@ Alternative pipline for GSNAP
 * 01_gsnap.sh
 
 `seq 24 | parallel bash jobs/01_gsnap.sh {}`
+
+
+See the reports from this in [reports](reports)
