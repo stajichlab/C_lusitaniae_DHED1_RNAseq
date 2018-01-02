@@ -26,19 +26,19 @@ dds <- DESeqDataSetFromMatrix(countData = dhedset,
                        colData   = colData,
                        design = ~ condition + genotype)
 
-nrow(dds)
+#nrow(dds)
 dds <- dds[ rowSums(counts(dds)) > 1, ]
-nrow(dds)
+#nrow(dds)
 
 dds <- estimateSizeFactors(dds)
 vsd <- vst(dds, blind=FALSE)
-rld <- rlog(dds, blind=FALSE)
+#rld <- rlog(dds, blind=FALSE)
 head(assay(vsd), 3)
 
 df <- bind_rows(
   as_data_frame(log2(counts(dds, normalized=TRUE)[, 1:2]+1)) %>%
          mutate(transformation = "log2(x + 1)"),
-  as_data_frame(assay(rld)[, 1:2]) %>% mutate(transformation = "rlog"),
+#  as_data_frame(assay(rld)[, 1:2]) %>% mutate(transformation = "rlog"),
   as_data_frame(assay(vsd)[, 1:2]) %>% mutate(transformation = "vst"))
   
 colnames(df)[1:2] <- c("x", "y")  
@@ -50,11 +50,11 @@ ggplot(df, aes(x = x, y = y)) + geom_hex(bins = 80) +
 select <- order(rowMeans(counts(dds,normalized=TRUE)),
                 decreasing=TRUE)[1:20]
 df <- as.data.frame(colData(dds)[,c("condition","genotype")])
-pheatmap(assay(vsd)[select,], cluster_rows=FALSE, show_rownames=FALSE,
+pheatmap(assay(vsd)[select,], cluster_rows=FALSE, show_rownames=TRUE,
          cluster_cols=FALSE, annotation_col=df)
 
-pheatmap(assay(rld)[select,], cluster_rows=FALSE, show_rownames=FALSE,
-         cluster_cols=FALSE, annotation_col=df)
+#pheatmap(assay(rld)[select,], cluster_rows=FALSE, show_rownames=TRUE,
+#         cluster_cols=FALSE, annotation_col=df)
 
 sampleDists <- dist(t(assay(vsd)))
 sampleDistMatrix <- as.matrix(sampleDists)
