@@ -1,6 +1,13 @@
 RNAseq for Candida (Clavispora) lusitaniae project from Deborah Hogan / Elora Demers
 
-Samples are listed in samples.txt
+Samples are listed in [samples.txt](samples.txt)
+
+Read Mapping stats are in [mapping_stats.tsv](mapping_stats.tsv)
+
+Summary plots and data for RNASeq
+* (StringTie Results)[plots/RNASeq_stringtieFrags.pdf] - don't use but for comparison. Data file is (DHED1.DESeq.gene_count.tab)[reports/DHED1.DESeq.gene_count.tab]
+* (GSNAP featureCount Fragments)[plot/RNASeq_featureCount_frags.pdf] - also don't use but for comparison. Data file is (DHED1.gsnap_frags.tab)[reports/DHED1.gsnap_frags.tab]
+* (GSNAP featureCount Reads)[plot/RNASeq_featureCount_reads.pdf] - __USE ME__ Data file is (DHED1.gsnap_reads.tab)[reports/DHED1.gsnap_reads.tab]
 
 [GSNAP](http://research-pub.gene.com/gmap/) Jobs are run as:
 
