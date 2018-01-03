@@ -4,10 +4,11 @@
 
 module load stringtie
 N=${SLURM_ARRAY_TASK_ID}
-OUTDIR=results
+OUTDIR=results/stringtie
 INDIR=aln
 SAMPLEFILE=samples.txt
 GTF=genome/candida_lusitaniae_1_transcripts.gtf
+
 CPU=1
 if [ $SLURM_CPUS_ON_NODE ]; then
  CPU=$SLURM_CPUS_ON_NODE
