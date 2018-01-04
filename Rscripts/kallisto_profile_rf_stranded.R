@@ -8,13 +8,13 @@ library(pheatmap)
 library(RColorBrewer)
 
 samples <- read.table("sample_names.txt",header=FALSE)
-files <- file.path("results","kallisto",samples$V1,"abundance.h5")
+files <- file.path("results","kallisto_rf",samples$V1,"abundance.h5")
 txi.kallisto <- tximport(files, type = "kallisto", txOut = TRUE)
 head(txi.kallisto$counts)
 colnames(txi.kallisto$counts) <- samples$V1
 colnames(txi.kallisto$abundance) <- samples$V1
-write.csv(txi.kallisto$abundance,"reports/kallisto.TPM.csv")
-write.csv(txi.kallisto$counts,"reports/kallisto.counts.csv")
+write.csv(txi.kallisto$abundance,"reports/kallisto_stranded_rf.TPM.csv")
+write.csv(txi.kallisto$counts,"reports/kallisto_stranded_rf.counts.csv")
 
 # DEseq2 analyses
 geno = factor(rep( c("L1B","L4C","U10D","U3B","U3E","U5C"), each=4))
@@ -49,7 +49,7 @@ df <- bind_rows(
 
 colnames(df)[1:2] <- c("x", "y")
 
-pdf("plots/RNASeq_kallisto.pdf")
+pdf("plots/RNASeq_kallisto_stranded_rf.pdf")
 ggplot(df, aes(x = x, y = y)) + geom_hex(bins = 80) +
   coord_fixed() + facet_grid( . ~ transformation)
 
