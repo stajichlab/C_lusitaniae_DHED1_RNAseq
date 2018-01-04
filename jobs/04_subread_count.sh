@@ -51,7 +51,7 @@ do
     INFILE=$INDIR/$SAMPLE.r${REP}.$EXTENSION
     echo "$FOLDER $SAMPLE $REP $OUTFILE $INFILE"
     if [ ! -f $OUTFILE ]; then
-	featureCounts -g gene_id -T $CPUS -G $GENOME -s 1 -a $GFF \
+	featureCounts -g gene_id -T $CPUS -G $GENOME -s 2 -a $GFF \
             --tmpDir $TEMP \
 	    -o $OUTFILE -F GTF -p $INFILE
     fi
