@@ -1,14 +1,33 @@
 library(edgeR)
-readCount <- read.csv("reports/DHED1.DESeq.gene_count.tab",row.names="LOCUS",header=T)
-dim(readCount)
 
-geno <- factor(rep(c("L1B","L1B_benomyl","L4C","L4C_benomyl","U10D","U10D_benomyl","U3B","U3B_benomyl",
-		  "U3E","U3E_benomyl","U5C","U5C_benomyl"),each=2))
-write.csv(file="reports/DHED1.DESeq.CPM.csv",cpm(readCount))
-keep <- rowSums(cpm(readCount)>1) >= 2
-design <- model.matrix(~geno)
+dhedset <- read.csv("reports/DHED1.gsnap_frags.tab",
+                    row.names="Geneid",header=T,sep="\t")
+dim(dhedset)
+dhedset = dhedset[6:length(dhedset)]
+geno = factor(rep( c("L1B","L4C","U10D","U3B","U3E","U5C"), each=4))
 
-design
+benomyl = factor(c( "untreated","untreated","Benomyl","Benomyl",
+                    "untreated","untreated","Benomyl","Benomyl",
+                    "untreated","untreated","Benomyl","Benomyl",
+                    "untreated","untreated","Benomyl","Benomyl",
+                    "untreated","untreated","Benomyl","Benomyl",
+                    "untreated","untreated","Benomyl","Benomyl"))
+
+colData = data.frame(row.names=colnames(dhedset),
+                     condition=benomyl,
+                     genotype = geno)
+dds <- DESeqDataSetFromMatrix(countData = dhedset,
+                       colData   = colData,
+                       design = ~ condition + genotype)
+
+#nrow(dds)
+dds <- dds[ rowSums(counts(dds)) > 1, ]
+#nrow(dds)
+
+write.csv(file="reports/DHED1.gsnap.CPM.csv",cpm(dds))
+
+keep <- rowSums(cpm(dds)>1) >= 2
+
 y <- DGEList(counts=keep,group=geno)
 
 y <- estimateGLMCommonDisp(y,design)
