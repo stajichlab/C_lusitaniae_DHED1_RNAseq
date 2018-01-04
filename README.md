@@ -10,9 +10,12 @@ Summary plots and data for RNASeq
 * [GSNAP featureCount Fragments](plots/RNASeq_featureCount_frags.pdf) - also don't use but for comparison. Data file is [DHED1.gsnap_frags.tab](reports/DHED1.gsnap_frags.tab)
 * [GSNAP featureCount Reads](plots/RNASeq_featureCount_reads.pdf) - __USE ME__ Data file is [DHED1.gsnap_reads.tab](reports/DHED1.gsnap_reads.tab)
 
-[Kallisto](https://pachterlab.github.io/kallisto/) counting and TPM
+[Kallisto](https://pachterlab.github.io/kallisto/) counting and TPM. Jobs run from 07_kallisto.sh (arrayjob) after running 00_build_kallisto_index.sh
 * [Kallisto results](plots/RNASeq_kallisto_stranded_rf.pdf) - Strand-specific Frags [TPM](reports/kallisto_stranded_rf.TPM.csv) [Counts](kallisto_stranded_rf.counts.csv)
 * [Kallisto unstranded read results](plots/RNASeq_kallisto_single.pdf) - Strand-specific Read [TPM](reports/kallisto_single.TPM.csv) [Counts](reports/kallisto_counts.TPM.csv)
+
+
+
 [GSNAP](http://research-pub.gene.com/gmap/) Jobs are run as:
 
 * 00_build_gmap_index.sh **SINGLE**
