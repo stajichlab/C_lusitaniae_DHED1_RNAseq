@@ -12,9 +12,7 @@ Summary plots and data for RNASeq
 
 [Kallisto](https://pachterlab.github.io/kallisto/) counting and TPM. Jobs run from 07_kallisto.sh (arrayjob) after running 00_build_kallisto_index.sh
 * [Kallisto results](plots/RNASeq_kallisto_stranded_rf.pdf) - Strand-specific Frags [TPM](reports/kallisto_stranded_rf.TPM.csv) [Counts](kallisto_stranded_rf.counts.csv)
-* [Kallisto unstranded read results](plots/RNASeq_kallisto_single.pdf) - Strand-specific Read [TPM](reports/kallisto_single.TPM.csv) [Counts](reports/kallisto_counts.TPM.csv)
-
-
+* [Kallisto unstranded read results](plots/RNASeq_kallisto_single.pdf) - Strand-specific Read [TPM](reports/kallisto_single.TPM.csv) [Counts](reports/kallisto_single.counts.csv)
 
 [GSNAP](http://research-pub.gene.com/gmap/) Jobs are run as:
 
