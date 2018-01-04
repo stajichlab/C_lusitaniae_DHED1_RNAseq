@@ -1,0 +1,9 @@
+{
+	"n_targets": 5941,
+	"n_bootstraps": 0,
+	"n_processed": 42680838,
+	"kallisto_version": "0.43.1",
+	"index_version": 10,
+	"start_time": "Wed Jan  3 23:31:46 2018",
+	"call": "kallisto quant -i genome/Clus.CDS.idx -o results/kallisto_single/U3B_benomyl.r2 -t 8 --bias --single -l 300 --sd 1000 raw/DHED20-38373434/DHED20_S24_L001_R1_001.fastq.gz raw/DHED20-38373434/DHED20_S24_L001_R2_001.fastq.gz raw/DHED20-38373434/DHED20_S24_L002_R1_001.fastq.gz raw/DHED20-38373434/DHED20_S24_L002_R2_001.fastq.gz raw/DHED20-38373434/DHED20_S24_L003_R1_001.fastq.gz raw/DHED20-38373434/DHED20_S24_L003_R2_001.fastq.gz raw/DHED20-38373434/DHED20_S24_L004_R1_001.fastq.gz raw/DHED20-38373434/DHED20_S24_L004_R2_001.fastq.gz"
+}

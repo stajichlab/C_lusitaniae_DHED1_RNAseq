@@ -1,0 +1,9 @@
+{
+	"n_targets": 5941,
+	"n_bootstraps": 0,
+	"n_processed": 18616807,
+	"kallisto_version": "0.43.1",
+	"index_version": 10,
+	"start_time": "Wed Jan  3 23:38:20 2018",
+	"call": "kallisto quant -i genome/Clus.CDS.idx -o results/kallisto_rf/L1B_benomyl.r2 -t 8 --bias --rf-stranded raw/DHED16-38379400/DHED16_S2_L001_R1_001.fastq.gz raw/DHED16-38379400/DHED16_S2_L001_R2_001.fastq.gz raw/DHED16-38379400/DHED16_S2_L002_R1_001.fastq.gz raw/DHED16-38379400/DHED16_S2_L002_R2_001.fastq.gz raw/DHED16-38379400/DHED16_S2_L003_R1_001.fastq.gz raw/DHED16-38379400/DHED16_S2_L003_R2_001.fastq.gz raw/DHED16-38379400/DHED16_S2_L004_R1_001.fastq.gz raw/DHED16-38379400/DHED16_S2_L004_R2_001.fastq.gz"
+}
