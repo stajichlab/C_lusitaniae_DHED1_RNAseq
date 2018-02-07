@@ -1,9 +1,0 @@
-{
-	"n_targets": 5941,
-	"n_bootstraps": 0,
-	"n_processed": 21066864,
-	"kallisto_version": "0.43.1",
-	"index_version": 10,
-	"start_time": "Wed Jan  3 22:09:18 2018",
-	"call": "kallisto quant -i genome/Clus.CDS.idx -o results/kallisto/U10D.r1 -t 8 --bias --fr-stranded raw/DHED1-38374440/DHED1_S5_L001_R1_001.fastq.gz raw/DHED1-38374440/DHED1_S5_L001_R2_001.fastq.gz raw/DHED1-38374440/DHED1_S5_L002_R1_001.fastq.gz raw/DHED1-38374440/DHED1_S5_L002_R2_001.fastq.gz raw/DHED1-38374440/DHED1_S5_L003_R1_001.fastq.gz raw/DHED1-38374440/DHED1_S5_L003_R2_001.fastq.gz raw/DHED1-38374440/DHED1_S5_L004_R1_001.fastq.gz raw/DHED1-38374440/DHED1_S5_L004_R2_001.fastq.gz"
-}
