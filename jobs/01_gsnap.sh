@@ -2,7 +2,7 @@
 #SBATCH --nodes 1 --ntasks 24 --mem 16gb  -p short
 #SBATCH --time 2:00:00 -J gmap --out logs/gmap.%a.log
 
-module load gmap
+module load gmap/2018-02-05
 
 GENOME=genome/candida_lusitaniae_ATCC42720_w_CBS_6936_MT
 CPU=2
@@ -41,7 +41,7 @@ do
 
   echo "module load gmap" > job_$FOLDER.sh
 
-  echo "gsnap -t $THREADCOUNT -s splicesites -D genome --gunzip \
+  echo "gsnap -t $THREADCOUNT -s splicesites -D genome --gunzip --orientation=RF \
  -d candida_lusitaniae --read-group-id=$FOLDER --read-group-name=$SAMPLE \
  -A sam $READS > $OUTFILE" >> job_$FOLDER.sh
 

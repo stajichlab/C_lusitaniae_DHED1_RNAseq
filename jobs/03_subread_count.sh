@@ -5,6 +5,7 @@
 module load subread/1.6.0
 
 GENOME=genome/candida_lusitaniae_ATCC42720_w_CBS_6936_MT.fasta
+# transcript file was updated to recover missing genes
 GFF=genome/candida_lusitaniae_1_transcripts.gtf
 OUTDIR=results/featureCounts
 INDIR=aln

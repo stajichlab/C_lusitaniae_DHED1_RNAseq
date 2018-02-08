@@ -30,5 +30,5 @@ do
  INFILE=$INDIR/${SAMPLE}.r${REP}.gsnap.bam
  echo "NAME is $SAMPLE REP is $REP infile = $INFILE OUTDIR=$OUTDIR/${SAMPLE}.r${REP} " 
  mkdir -p $OUTDIR/${NAME}.r${REP}
- stringtie --fr -p $CPU -G $GTF -b $OUTDIR/${SAMPLE}.r${REP}.gsnap -e -o $OUTDIR/${SAMPLE}.r${REP}.gsnap.stringtie.gtf $INFILE
+ stringtie --rf -p $CPU -G $GTF -b $OUTDIR/${SAMPLE}.r${REP}.gsnap -e -o $OUTDIR/${SAMPLE}.r${REP}.gsnap.stringtie.gtf $INFILE
 done
