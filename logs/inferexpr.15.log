@@ -1,3 +1,4 @@
 DHED15-38377448 L1B
+[W::hts_idx_load2] The index file is older than the data file: aln/L1B.r2.gsnap.bai
 Reading reference gene model genome/candida_lusitaniae_1_transcripts.bed ... Done
 Loading SAM/BAM file ...  Total 1000000 usable reads were sampled
