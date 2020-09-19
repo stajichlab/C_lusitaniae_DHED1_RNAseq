@@ -1,2 +1,2 @@
 DHED15-38377448 L1B
-NAME is L1B REP is 2 infile = aln/L1B.r2.gsnap.bam OUTDIR=results/L1B.r2 
+NAME is L1B REP is 2 infile = aln/L1B.r2.gsnap.bam OUTDIR=results/stringtie/L1B.r2 

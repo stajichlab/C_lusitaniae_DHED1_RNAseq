@@ -1,2 +1,2 @@
 DHED21-38375452 U5C
-NAME is U5C REP is 1 infile = aln/U5C.r1.gsnap.bam OUTDIR=results/U5C.r1 
+NAME is U5C REP is 1 infile = aln/U5C.r1.gsnap.bam OUTDIR=results/stringtie/U5C.r1 

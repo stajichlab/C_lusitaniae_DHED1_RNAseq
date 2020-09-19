@@ -1,2 +1,2 @@
 DHED4-38374452 U10D_benomyl
-NAME is U10D_benomyl REP is 2 infile = aln/U10D_benomyl.r2.gsnap.bam OUTDIR=results/U10D_benomyl.r2 
+NAME is U10D_benomyl REP is 2 infile = aln/U10D_benomyl.r2.gsnap.bam OUTDIR=results/stringtie/U10D_benomyl.r2 

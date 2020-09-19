@@ -1,2 +1,2 @@
 DHED3-38373436 U10D
-NAME is U10D REP is 2 infile = aln/U10D.r2.gsnap.bam OUTDIR=results/U10D.r2 
+NAME is U10D REP is 2 infile = aln/U10D.r2.gsnap.bam OUTDIR=results/stringtie/U10D.r2 

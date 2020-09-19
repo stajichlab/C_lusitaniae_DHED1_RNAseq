@@ -1,2 +1,2 @@
 DHED9-38376446 U3E
-NAME is U3E REP is 1 infile = aln/U3E.r1.gsnap.bam OUTDIR=results/U3E.r1 
+NAME is U3E REP is 1 infile = aln/U3E.r1.gsnap.bam OUTDIR=results/stringtie/U3E.r1 

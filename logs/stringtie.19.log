@@ -1,2 +1,2 @@
 DHED19-38376453 U3B
-NAME is U3B REP is 2 infile = aln/U3B.r2.gsnap.bam OUTDIR=results/U3B.r2 
+NAME is U3B REP is 2 infile = aln/U3B.r2.gsnap.bam OUTDIR=results/stringtie/U3B.r2 

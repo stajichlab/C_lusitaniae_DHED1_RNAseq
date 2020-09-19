@@ -1,2 +1,2 @@
 DHED20-38373434 U3B_benomyl
-NAME is U3B_benomyl REP is 2 infile = aln/U3B_benomyl.r2.gsnap.bam OUTDIR=results/U3B_benomyl.r2 
+NAME is U3B_benomyl REP is 2 infile = aln/U3B_benomyl.r2.gsnap.bam OUTDIR=results/stringtie/U3B_benomyl.r2 

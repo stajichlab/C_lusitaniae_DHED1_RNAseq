@@ -1,2 +1,2 @@
 DHED24-38373424 U5C_benomyl
-NAME is U5C_benomyl REP is 2 infile = aln/U5C_benomyl.r2.gsnap.bam OUTDIR=results/U5C_benomyl.r2 
+NAME is U5C_benomyl REP is 2 infile = aln/U5C_benomyl.r2.gsnap.bam OUTDIR=results/stringtie/U5C_benomyl.r2 

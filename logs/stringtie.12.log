@@ -1,2 +1,2 @@
 DHED12-38372448 U3E_benomyl
-NAME is U3E_benomyl REP is 2 infile = aln/U3E_benomyl.r2.gsnap.bam OUTDIR=results/U3E_benomyl.r2 
+NAME is U3E_benomyl REP is 2 infile = aln/U3E_benomyl.r2.gsnap.bam OUTDIR=results/stringtie/U3E_benomyl.r2 

@@ -1,1 +1,50 @@
 DHED1-38374440 U10D
+14:36:36.736 INFO  NativeLibraryLoader - Loading libgkl_compression.so from jar:file:/bigdata/operations/pkgadmin/opt/linux/centos/7.x/x86_64/pkgs/picard/2.14.1/lib/picard.jar!/com/intel/gkl/native/libgkl_compression.so
+[Fri Mar 02 14:36:36 PST 2018] CollectInsertSizeMetrics HISTOGRAM_FILE=reports/U10D.r1.gsnap.picardreport.pdf MINIMUM_PCT=0.5 METRIC_ACCUMULATION_LEVEL=[SAMPLE, ALL_READS] INPUT=aln/U10D.r1.gsnap.bam OUTPUT=reports/U10D.r1.gsnap.picardreport.txt    DEVIATIONS=10.0 INCLUDE_DUPLICATES=false ASSUME_SORTED=true STOP_AFTER=0 VERBOSITY=INFO QUIET=false VALIDATION_STRINGENCY=STRICT COMPRESSION_LEVEL=5 MAX_RECORDS_IN_RAM=500000 CREATE_INDEX=false CREATE_MD5_FILE=false GA4GH_CLIENT_SECRETS=client_secrets.json USE_JDK_DEFLATER=false USE_JDK_INFLATER=false
+[Fri Mar 02 14:36:36 PST 2018] Executing as jstajich@i27 on Linux 3.10.0-693.11.6.el7.x86_64 amd64; Java HotSpot(TM) 64-Bit Server VM 1.8.0_25-b17; Deflater: Intel; Inflater: Intel; Picard version: 2.14.1-SNAPSHOT
+INFO	2018-03-02 14:36:42	SinglePassSamProgram	Processed     1,000,000 records.  Elapsed time: 00:00:05s.  Time for last 1,000,000:    5s.  Last read position: Supercontig_1.1:292,436
+INFO	2018-03-02 14:36:45	SinglePassSamProgram	Processed     2,000,000 records.  Elapsed time: 00:00:08s.  Time for last 1,000,000:    2s.  Last read position: Supercontig_1.1:448,526
+INFO	2018-03-02 14:36:48	SinglePassSamProgram	Processed     3,000,000 records.  Elapsed time: 00:00:11s.  Time for last 1,000,000:    2s.  Last read position: Supercontig_1.1:666,267
+INFO	2018-03-02 14:36:50	SinglePassSamProgram	Processed     4,000,000 records.  Elapsed time: 00:00:13s.  Time for last 1,000,000:    2s.  Last read position: Supercontig_1.1:827,929
+INFO	2018-03-02 14:36:53	SinglePassSamProgram	Processed     5,000,000 records.  Elapsed time: 00:00:16s.  Time for last 1,000,000:    2s.  Last read position: Supercontig_1.1:829,090
+INFO	2018-03-02 14:36:56	SinglePassSamProgram	Processed     6,000,000 records.  Elapsed time: 00:00:19s.  Time for last 1,000,000:    2s.  Last read position: Supercontig_1.1:880,347
+INFO	2018-03-02 14:36:58	SinglePassSamProgram	Processed     7,000,000 records.  Elapsed time: 00:00:22s.  Time for last 1,000,000:    2s.  Last read position: Supercontig_1.1:1,132,634
+INFO	2018-03-02 14:37:01	SinglePassSamProgram	Processed     8,000,000 records.  Elapsed time: 00:00:24s.  Time for last 1,000,000:    2s.  Last read position: Supercontig_1.1:1,582,883
+INFO	2018-03-02 14:37:04	SinglePassSamProgram	Processed     9,000,000 records.  Elapsed time: 00:00:27s.  Time for last 1,000,000:    2s.  Last read position: Supercontig_1.1:1,958,225
+INFO	2018-03-02 14:37:06	SinglePassSamProgram	Processed    10,000,000 records.  Elapsed time: 00:00:29s.  Time for last 1,000,000:    2s.  Last read position: Supercontig_1.1:2,289,540
+INFO	2018-03-02 14:37:09	SinglePassSamProgram	Processed    11,000,000 records.  Elapsed time: 00:00:32s.  Time for last 1,000,000:    2s.  Last read position: Supercontig_1.2:254,381
+INFO	2018-03-02 14:37:11	SinglePassSamProgram	Processed    12,000,000 records.  Elapsed time: 00:00:34s.  Time for last 1,000,000:    2s.  Last read position: Supercontig_1.2:442,963
+INFO	2018-03-02 14:37:14	SinglePassSamProgram	Processed    13,000,000 records.  Elapsed time: 00:00:37s.  Time for last 1,000,000:    2s.  Last read position: Supercontig_1.2:709,695
+INFO	2018-03-02 14:37:17	SinglePassSamProgram	Processed    14,000,000 records.  Elapsed time: 00:00:40s.  Time for last 1,000,000:    2s.  Last read position: Supercontig_1.2:1,071,158
+INFO	2018-03-02 14:37:19	SinglePassSamProgram	Processed    15,000,000 records.  Elapsed time: 00:00:43s.  Time for last 1,000,000:    2s.  Last read position: Supercontig_1.2:1,293,348
+INFO	2018-03-02 14:37:22	SinglePassSamProgram	Processed    16,000,000 records.  Elapsed time: 00:00:45s.  Time for last 1,000,000:    2s.  Last read position: Supercontig_1.2:1,570,771
+INFO	2018-03-02 14:37:24	SinglePassSamProgram	Processed    17,000,000 records.  Elapsed time: 00:00:48s.  Time for last 1,000,000:    2s.  Last read position: Supercontig_1.2:1,852,908
+INFO	2018-03-02 14:37:27	SinglePassSamProgram	Processed    18,000,000 records.  Elapsed time: 00:00:50s.  Time for last 1,000,000:    2s.  Last read position: Supercontig_1.3:116,574
+INFO	2018-03-02 14:37:30	SinglePassSamProgram	Processed    19,000,000 records.  Elapsed time: 00:00:53s.  Time for last 1,000,000:    2s.  Last read position: Supercontig_1.3:280,964
+INFO	2018-03-02 14:37:32	SinglePassSamProgram	Processed    20,000,000 records.  Elapsed time: 00:00:55s.  Time for last 1,000,000:    2s.  Last read position: Supercontig_1.3:512,318
+INFO	2018-03-02 14:37:35	SinglePassSamProgram	Processed    21,000,000 records.  Elapsed time: 00:00:58s.  Time for last 1,000,000:    2s.  Last read position: Supercontig_1.3:922,134
+INFO	2018-03-02 14:37:37	SinglePassSamProgram	Processed    22,000,000 records.  Elapsed time: 00:01:00s.  Time for last 1,000,000:    2s.  Last read position: Supercontig_1.3:1,407,494
+INFO	2018-03-02 14:37:40	SinglePassSamProgram	Processed    23,000,000 records.  Elapsed time: 00:01:03s.  Time for last 1,000,000:    2s.  Last read position: Supercontig_1.3:1,850,298
+INFO	2018-03-02 14:37:42	SinglePassSamProgram	Processed    24,000,000 records.  Elapsed time: 00:01:06s.  Time for last 1,000,000:    2s.  Last read position: Supercontig_1.4:468,596
+INFO	2018-03-02 14:37:45	SinglePassSamProgram	Processed    25,000,000 records.  Elapsed time: 00:01:08s.  Time for last 1,000,000:    2s.  Last read position: Supercontig_1.4:690,700
+INFO	2018-03-02 14:37:48	SinglePassSamProgram	Processed    26,000,000 records.  Elapsed time: 00:01:11s.  Time for last 1,000,000:    2s.  Last read position: Supercontig_1.4:975,552
+INFO	2018-03-02 14:37:50	SinglePassSamProgram	Processed    27,000,000 records.  Elapsed time: 00:01:13s.  Time for last 1,000,000:    2s.  Last read position: Supercontig_1.4:1,189,507
+INFO	2018-03-02 14:37:53	SinglePassSamProgram	Processed    28,000,000 records.  Elapsed time: 00:01:16s.  Time for last 1,000,000:    2s.  Last read position: Supercontig_1.4:1,348,550
+INFO	2018-03-02 14:37:55	SinglePassSamProgram	Processed    29,000,000 records.  Elapsed time: 00:01:18s.  Time for last 1,000,000:    2s.  Last read position: Supercontig_1.4:1,511,875
+INFO	2018-03-02 14:37:58	SinglePassSamProgram	Processed    30,000,000 records.  Elapsed time: 00:01:21s.  Time for last 1,000,000:    2s.  Last read position: Supercontig_1.4:1,776,639
+INFO	2018-03-02 14:38:01	SinglePassSamProgram	Processed    31,000,000 records.  Elapsed time: 00:01:24s.  Time for last 1,000,000:    2s.  Last read position: Supercontig_1.5:424,285
+INFO	2018-03-02 14:38:03	SinglePassSamProgram	Processed    32,000,000 records.  Elapsed time: 00:01:26s.  Time for last 1,000,000:    2s.  Last read position: Supercontig_1.5:634,317
+INFO	2018-03-02 14:38:06	SinglePassSamProgram	Processed    33,000,000 records.  Elapsed time: 00:01:29s.  Time for last 1,000,000:    2s.  Last read position: Supercontig_1.5:865,681
+INFO	2018-03-02 14:38:08	SinglePassSamProgram	Processed    34,000,000 records.  Elapsed time: 00:01:31s.  Time for last 1,000,000:    2s.  Last read position: Supercontig_1.5:1,298,553
+INFO	2018-03-02 14:38:11	SinglePassSamProgram	Processed    35,000,000 records.  Elapsed time: 00:01:34s.  Time for last 1,000,000:    2s.  Last read position: Supercontig_1.6:304,988
+INFO	2018-03-02 14:38:13	SinglePassSamProgram	Processed    36,000,000 records.  Elapsed time: 00:01:36s.  Time for last 1,000,000:    2s.  Last read position: Supercontig_1.6:607,960
+INFO	2018-03-02 14:38:16	SinglePassSamProgram	Processed    37,000,000 records.  Elapsed time: 00:01:39s.  Time for last 1,000,000:    2s.  Last read position: Supercontig_1.6:768,367
+INFO	2018-03-02 14:38:18	SinglePassSamProgram	Processed    38,000,000 records.  Elapsed time: 00:01:41s.  Time for last 1,000,000:    2s.  Last read position: Supercontig_1.7:184,591
+INFO	2018-03-02 14:38:21	SinglePassSamProgram	Processed    39,000,000 records.  Elapsed time: 00:01:44s.  Time for last 1,000,000:    2s.  Last read position: Supercontig_1.7:709,803
+INFO	2018-03-02 14:38:23	SinglePassSamProgram	Processed    40,000,000 records.  Elapsed time: 00:01:46s.  Time for last 1,000,000:    2s.  Last read position: Supercontig_1.8:66,795
+INFO	2018-03-02 14:38:26	SinglePassSamProgram	Processed    41,000,000 records.  Elapsed time: 00:01:49s.  Time for last 1,000,000:    2s.  Last read position: Supercontig_1.8:424,568
+INFO	2018-03-02 14:38:30	RExecutor	Executing R script via command: Rscript /tmp/script9071877447015673387.R /bigdata/stajichlab/shared/projects/Candida/HMAC/RNAseq/reports/U10D.r1.gsnap.picardreport.txt /bigdata/stajichlab/shared/projects/Candida/HMAC/RNAseq/reports/U10D.r1.gsnap.picardreport.pdf U10D.r1.gsnap.bam
+INFO	2018-03-02 14:38:31	ProcessExecutor	null device 
+INFO	2018-03-02 14:38:31	ProcessExecutor	          1 
+[Fri Mar 02 14:38:31 PST 2018] picard.analysis.CollectInsertSizeMetrics done. Elapsed time: 1.92 minutes.
+Runtime.totalMemory()=12158763008

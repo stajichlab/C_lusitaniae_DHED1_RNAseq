@@ -1,2 +1,2 @@
 DHED7-38369599 L4C
-NAME is L4C REP is 2 infile = aln/L4C.r2.gsnap.bam OUTDIR=results/L4C.r2 
+NAME is L4C REP is 2 infile = aln/L4C.r2.gsnap.bam OUTDIR=results/stringtie/L4C.r2 
